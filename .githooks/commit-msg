@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+file = File.open(ARGV[0])
+content = file.read
+
+if content.match('[a-zA-Z]+.*\[.*:.*[0-9]+')
+  puts "Match found!"
+else
+  puts "Match not found!"
+  exit 1
+end
