@@ -1,12 +1,21 @@
 #title {
-
     color: red;
-
 }
 
 header {
-
     background-color: blue;
     padding-bottom: 0.5%;
+}
 
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px;
+    display: inline-block;
 }
